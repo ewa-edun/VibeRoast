@@ -40,7 +40,16 @@ export const moodWorkouts = {
       "Calm down, Shakespeare, your overthinking isn't writing a bestseller.",
       "Your stress level is higher than your step count.",
       "Deep breaths - your drama deserves an Oscar, but your body needs yoga.",
-    ]
+    ],
+    hypeMessages: [
+      "CHANNEL THAT STRESS INTO POWER! YOU'RE A WARRIOR! 🗡️",
+      "TIME TO SHOW ANXIETY WHO'S BOSS! YOU GOT THIS! 💫",
+      "STRESS IS JUST EXCITEMENT IN DISGUISE - LET'S TRANSFORM IT! 🦋",
+    ],
+    media: {
+      youtube: "https://www.youtube.com/watch?v=hJbRpHZr_d0",
+      playlist: "https://open.spotify.com/playlist/37i9dQZF1DX9uKNf5jGX6m"
+    }
   },
   PUMPED: {
     workout: "Intense cardio",
@@ -48,7 +57,16 @@ export const moodWorkouts = {
       "Wow, someone's trying to win the Olympics. Hope your Wi-Fi doesn't buffer mid-workout.",
       "All that energy and still no gains? Interesting strategy.",
       "Channel that energy into something other than posting gym selfies.",
-    ]
+    ],
+    hypeMessages: [
+      "YOU'RE NOT JUST PUMPED, YOU'RE UNSTOPPABLE! 🚀",
+      "LET'S GOOO! TIME TO MAKE THAT WORKOUT FEAR YOU! 💥",
+      "YOU'RE A FORCE OF NATURE! SHOW THEM WHAT YOU'RE MADE OF! 🔥",
+    ],
+    media: {
+      youtube: "https://www.youtube.com/watch?v=ml6cT4AZdqI",
+      playlist: "https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh"
+    }
   },
   MEH: {
     workout: "Walk outside",
@@ -56,7 +74,16 @@ export const moodWorkouts = {
       "A little movement won't kill you… probably.",
       "Your enthusiasm is as flat as your workout history.",
       "Congratulations! You've achieved peak mediocrity.",
-    ]
+    ],
+    hypeMessages: [
+      "MEH? MORE LIKE MIGHTY! LET'S TURN THIS DAY AROUND! 🌟",
+      "AVERAGE MOOD, EXTRAORDINARY POTENTIAL! SHOW 'EM! 💫",
+      "TIME TO TRANSFORM MEH INTO MAGNIFICENT! 🎭",
+    ],
+    media: {
+      youtube: "https://www.youtube.com/watch?v=DYHxY3V4lJQ",
+      playlist: "https://open.spotify.com/playlist/37i9dQZF1DX5g856aiKiDS"
+    }
   },
   UNMOTIVATED: {
     workout: "Quick Dance Workout",
@@ -90,5 +117,20 @@ export const repeatedMoodRoasts = {
     "Oh, 'Tired' again? It's called 'sleep,' try it sometime.",
     "Plot twist: maybe you're tired because you never move?",
   ],
-  // ... add for other moods
+  STRESSED: [
+    "Again with the stress? Your drama deserves its own reality show.",
+    "At this point, your stress level is more consistent than your workout routine.",
+  ],
+  PUMPED: [
+    "Always 'pumped' but never pumping iron, I see the pattern.",
+    "All that excitement and still no progress? Fascinating strategy.",
+  ],
+  MEH: [
+    "Professional 'meh' enthusiast, I see. At least you're consistent.",
+    "Your dedication to mediocrity is actually quite impressive.",
+  ],
+  UNMOTIVATED: [
+    "Unmotivated again? Shocking. Absolutely shocking.",
+    "Your excuses are getting more reps than you are.",
+  ]
 };

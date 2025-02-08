@@ -58,11 +58,3 @@ That random hype stuff, I can make it like a different personality so they'll cl
 - **Backend (Optional):** None needed for MVP, but Flask/Node.js if storing workouts later  
 
 ---
-
-## **🎯 Stretch Goals (If Time Allows)**  
-✅ **Dark mode** for ✨ aesthetic ✨  
-✅ **More moods & roasts** for variety  
-✅ **Funny sound effects** when selecting a mood  
-✅ **Leaderboard for consistency streaks**  
-
----
