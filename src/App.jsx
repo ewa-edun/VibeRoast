@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { moodWorkouts, harshRoasts, repeatedMoodRoasts } from './data/workoutData'
 import './App.css'
 
@@ -41,7 +41,7 @@ function App() {
     setRoastClickCount(newCount)
     
     let message
-    if (newCount >= 10) {
+    if (newCount >= 20){
       message = getRandomMessage(harshRoasts)
     } else if (isHypeMode) {
       message = getRandomMessage(moodWorkouts[selectedMood].hypeMessages)
@@ -66,7 +66,7 @@ function App() {
     <div className="container">
       <header>
         <h1>VibeRoast</h1>
-        <p className="tagline">Your Personal Roast Coach</p>
+        <p className="tagline">Your Personal {isHypeMode ? 'Overhype' : 'Roast'} Coach.</p>
         <button 
           className={`mode-toggle ${isHypeMode ? 'hype' : 'roast'}`}
           onClick={() => setIsHypeMode(!isHypeMode)}
